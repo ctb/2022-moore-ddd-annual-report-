@@ -30,96 +30,36 @@ work to explore these novel algorithms, develop new data structures,
 and implement decentralized bacterial genome database search on an
 Internet scale.
 
+spacegraphcats is a compressive graph indexing system built on top of dominating sets. It is the result of a collaboration with Dr. Blair Sullivan, another Moore DDD Investigator. spacegraphcats supports large-scale graph "neighborhood" query, which we developed in order to make use of meagenomic information not captured by current assembly-based approaches.
+
 Most of our research is built in some way on top of these packages.
 
-A brief summary of progress this year:
+My major accomplishments from this funding were:
 
-* our reanalysis of 700 transcriptomes (MMETSP, Lisa Johnson and
-  Harriet Alexander) was published! Moreover, Lisa's presentation at
-  the 13th International Conference on Genomics in Shenzen won
-  the second GigaScience ICG Prize! It was covered in this blog post,
-  here: http://gigasciencejournal.com/blog/icg-prize-winner-lisa-johnson-qa/
-  
-  The main significance of this work is that we show that new
-  algorithms can improve results from old data. Note too that the
-  MMETSP is a Moore Foundation-generated data set!
-  
-* our reference independent variant calling software, kevlar, based on
-  our k-mer counting library, khmer, was posted as a preprint (and,
-  after this reporting period, accepted for publication!).
-  
-  The initial use for the kevlar software focuses on analyzing novel
-  variants in autism quads (father/mother/two children, one with autism),
-  where the Human Genome reference will not suffice. The software relies
-  on novel statistics for prioritizing differences between the data sets,
-  and combines that with a novel approach for extracting and summarizing
-  novel sequence data in a (necessarily) reference independent manner.
-  
-* spacegraphcats, our collaborative work with Dr. Blair Sullivan (another DDD
-  Investigator) was submitted to biorxiv!
-  
-  This project is a 3 year project that emerged from the DDD
-  Barnraising in Maine in 2016. Briefly, we are developing novel
-  graph-based structures to dig into computationally inaccessible
-  regions of complex metagenomes.  This is tremendously exciting work
-  that should have major implications for metagenome analysis.
-  
-* Camille Scott continues to work on streaming assembly of RNAseq as part
-  of her doctoral project (https://github.com/camillescott/boink). The
-  underlying goal here is to look at sequencing data sets in a streaming
-  manner, so that we can make decisions without analyzing the whole data set.
-  Decisions can include truncating analysis of the data set, analyzing just
-  the data we've collected so far (while continuing to collect new data),
-  and avoiding undue collection of noise.
-  
-  We anticipate posting a preprint and submitting it in the upcoming
-  year.
+* we created and released multiple (~dozens) versions of the sourmash software, which is slowly gaining recognition as a well-engineered, well-maintained piece of bioinformatics software that enables novel research using massively scalable approaches to k-mer analysis.
 
-* we continue to work on a massively scalable distributed architecture for
-  querying all of the available microbiome data, as part of the
-  sourmash project (https://sourmash.readthedocs.io). This will likely
-  see submission during the upcoming year as part of Luiz Irber's doctoral
-  work.
-  
-* We made a significant investment in customizable workflows for
-  metagenomics (dahak) and transcriptomics (eelpond) that combine our
-  tools and approaches with other key pieces of software to produce
-  a single configurable pipeline for metagenomic and transcriptomic
-  analysis.
+* on top of sourmash, we built a massively scalable distributed architecture for querying all available microbiome data, now hosted by JGI - see https://branchwater.jgi.doe.gov/. This is a unique resource.
 
-* We ran (for the second time) a Summer Institute on bioinformatics
+* We ran three Summer Institutes on bioinformatics
   techniques, called DIBSI (Data Intensive Biology Summer
-  Institute). The core two-week workshop attracted 65 learners, along
-  with 20 instructors, TAs, and lecturers. It remains one of the most
+  Institute). This core two-week workshop attracted 65 learners each year, along
+  with approximately 20 instructors, TAs, and lecturers. It remains one of the most
   visible and well-recognized training programs in biomedical data
   science in the world.
+  
+We also submitted five distinct preprints resulting from novel research using our various tools.
 
 ## Awareness and recognition
 
 *Describe evidence of awareness/recognition of you, your projects, and/or your lab members.*
 
-I continue to be utilized for tenure letter writing (three Associate
-Professor cases in 2018) and grant panels (in 2019, I served on two
-NIH grant panels and two CZI grant panels within the first three
-months).  I was invited to attend a KISS workshop at Caltech on LISA,
-the space-based gravitational wave detector. And I recently gave the
-keynote talk at the 2018 annual meeting of the Dutch Techcentre for Life
-Sciences.
+During this period I was promoted to Professor (from Associate Professor) - a vote of confidence from my university for my research program. A number of my letter writers stressed the importance and value of the three major software platforms supported by the Moore DDD grant, including especially sourmash.
 
-Perhaps the biggest recognition I received in 2018 was in being
-selected to co-coordinate the NIH Data Commons, a pan-NIH effort to
-develop standards and technologies for large scale data analysis in
-the cloud. The pilot phase of this project was a $20m 18-month effort
-that my team co-coordinated together with Owen White at U Maryland.
-While the pilot phase is now over, my visible role in bringing open
-science and community engagement methodologies to this project is
-likely to result in several other substantial NIH funded projects.
+Also doing this period the two major software developers on these projects progressed towards their PhD, with Dr. Luiz Irber receiving his degree in late 2022. In addition, Dr. Taylor Reiter, one of the main drivers of the spacegraphcats software, received her PhD in 2022.
 
 ## Expenditures
 
-The major variances were on supplies (we don't really need any more
-equipment) and our MSU subcontract (which was all paid in the first year,
-and not spread out.)
+No major variants in expenditures - it was largely personnel and travel.
 
 ## No Cost Extension request
 
